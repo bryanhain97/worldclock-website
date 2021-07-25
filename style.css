@@ -21,18 +21,24 @@ body {
 }
 .headline {
     font-size: 3rem;
+    background: linear-gradient(to right, rgb(105, 105, 199),rgb(255, 141, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.subtitle {
+    font-size: 0.9rem;
+    margin: 10px 0;
 }
 main {
     display: flex;
     justify-content: space-between;
     height: 30vh;
-    margin-top: 30px;
+    margin-top: 40px;
     width: 100%;
     display: flex;
 }
 .main .left, .main .mid, .main .right {
     height: 50vh;
-    flex: 1;
 }
 .countryInput {
     width: 150px;
@@ -46,8 +52,6 @@ main {
 }
 #select {
     font-family:Arial, Helvetica, sans-serif;
-    position: relative;
-    left: 30px;
     font-size: 1.2rem;
     width: 250px;
     height: 120px;
